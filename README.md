@@ -1,4 +1,4 @@
-## account_move_payment_number (Odoo 15)
+## autoinfo_account_move_link_payment_number (Odoo 15)
 
 โมดูลเพิ่มฟิลด์ `Payment Number` บน Vendor Bill (account.move) เพื่อแสดงเลขที่เอกสาร Payment ที่ถูก reconcile กับบิลนั้น ช่วยให้ทีมบัญชีตรวจสอบการจ่ายได้สะดวกขึ้นทั้งในหน้าฟอร์มและรายการบิล
 

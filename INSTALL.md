@@ -6,7 +6,7 @@
   - account
 
 ### 2) ติดตั้งโมดูล (กรณีวางไฟล์บน Server)
-1. วางโฟลเดอร์โมดูล `account_move_payment_number` ไว้ใน addons path ของระบบ
+1. วางโฟลเดอร์โมดูล `autoinfo_account_move_link_payment_number` ไว้ใน addons path ของระบบ
 2. ตรวจสอบว่า `addons_path` ในไฟล์ config ของ Odoo ชี้มาที่โฟลเดอร์ดังกล่าวแล้ว
 3. Restart service ของ Odoo
 4. เปิด Odoo → Apps
@@ -16,7 +16,7 @@
 
 ### 3) ติดตั้ง/อัปเกรดผ่านคำสั่ง (ทางเลือก)
 - Upgrade เฉพาะโมดูล:
-  - `-u account_move_payment_number`
+  - `-u autoinfo_account_move_link_payment_number`
 
 ### 4) ตรวจสอบผลลัพธ์
 - ไปที่ Vendor Bills (หรือ Bills) แล้วเปิดบิลที่มีการจ่ายเงินและ reconcile แล้ว
