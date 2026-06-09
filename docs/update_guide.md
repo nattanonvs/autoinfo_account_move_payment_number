@@ -2,7 +2,7 @@
 
 ### แนวทางอัปเดตเวอร์ชัน (แนะนำ)
 1. สำรองข้อมูลฐานข้อมูล (DB backup) ก่อนทุกครั้ง
-2. วางโฟลเดอร์โมดูลเวอร์ชันใหม่ทับของเดิมใน `C:\odoo\APPreadytouse`
+2. วางโฟลเดอร์โมดูลเวอร์ชันใหม่ทับของเดิมใน `/var/odoo/custom15_autoinfo`
 3. Restart Odoo server
 4. เปิด Odoo → Apps → Update Apps List
 5. ค้นหา `Vendor Bill Payment Number` แล้วกด Upgrade
@@ -27,8 +27,11 @@
 - เพิ่ม tests ขั้นพื้นฐานสำหรับตรวจสอบว่าโมดูลโหลดได้และ view/field พร้อมใช้งาน
 - จำกัดการแสดงผลฟิลด์ `Payment Number` ให้โฟกัสเฉพาะ Vendor Bills (ลดผลกระทบกับ flow อื่น)
 
+#### 15.0.1.1.1
+- ปรับ path ในเอกสารทั้งหมดให้เป็นมาตรฐาน Linux server สำหรับ Odoo: `/var/odoo/custom15_autoinfo`
+- จัดทำ backup package ใหม่ให้สอดคล้องกับเอกสารล่าสุด
+
 ### Credits
 
 Development Team: The Auto-Info Co., Ltd. : Dev Team / Mr. Nattanon Vinyangkoon – Project conception, implementation, and thorough review of all deliverables.
 AI Coding Assistant: TRAE SOLO / MICROSOFT 365 COPILOT - Utilized to support code generation and productivity improvements under human oversight (e.g., suggesting code snippets and optimizations).
-
